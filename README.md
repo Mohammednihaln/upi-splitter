@@ -1,15 +1,15 @@
 # 💰 Freelancer UPI Payment Splitter
 
-A single-page web application designed for Indian freelancers to split invoice payments into separate components (Base Amount, GST, and Advance) and generate individual UPI QR codes for each component.
+A single-page web application designed for freelancers to split invoice payments into separate components (Base Amount, GST, and Advance) and generate individual UPI links for each component.
 
 ## 🚀 Features
 
 - **Smart Payment Splitting**: Automatically calculates Base Amount, GST, and Advance payments
-- **UPI QR Codes**: Generate scannable QR codes for each payment component
+- **UPI links**: Generate copyable links for each payment component
 - **Real-time Calculations**: Live preview of split amounts as you type
 - **Dark Mode**: Toggle between light and dark themes with persistent preference
 - **Mobile-First Design**: Fully responsive interface optimized for all devices
-- **Copy to Clipboard**: Easily copy UPI payment links
+- **Copy to Clipboard**: Easily copy UPI payment links by clicking it
 - **Print/PDF Export**: Print or save payment details as PDF
 - **Offline Ready**: Works without internet connection once loaded
 - **No Backend Required**: Pure client-side application
@@ -58,7 +58,7 @@ Each component gets its own scannable UPI QR code that your client can use to ma
 - GST Amount: ₹1,800.00
 - Advance Amount: ₹3,540.00
 
-The app generates 3 separate QR codes that your client can scan to pay each component individually.
+The app generates 3 separate UPI links that your client can click and pay each component individually.
 
 ## 🛠️ Technical Details
 
@@ -67,7 +67,6 @@ The app generates 3 separate QR codes that your client can scan to pay each comp
 - **HTML5**: Semantic markup
 - **CSS3**: Custom styling with CSS variables for theming
 - **JavaScript (ES6+)**: Vanilla JS, no frameworks
-- **QRCode.js**: QR code generation library
 
 ### Browser Compatibility
 
@@ -100,9 +99,6 @@ Comfortable dark theme for low-light environments with automatic system preferen
 
 ### Mobile View
 Optimized single-column layout for mobile devices with large touch targets.
-
-### QR Codes
-Scannable 200×200px QR codes with clear labels for each payment component.
 
 ## 🔒 Security & Privacy
 
@@ -156,8 +152,7 @@ MIT License - Feel free to use this for personal or commercial projects.
 ## 🙏 Acknowledgments
 
 - Built using spec-driven development with Kiro AI
-- QR code generation powered by [QRCode.js](https://github.com/davidshimjs/qrcodejs)
-- Designed for the Indian freelancer community
+- Designed for the freelancer community
 
 ## 📞 Support
 
@@ -165,4 +160,4 @@ For issues or questions, please open an issue on GitHub.
 
 ---
 
-**Made with ❤️ for Indian Freelancers**
+**Made for Freelancers to ease their work**
